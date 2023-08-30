@@ -1,0 +1,17 @@
+.body {
+    min-height: 300px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+}
+
+main {
+    background-color: blue;
+}
+
+.photos {
+    display: flex;
+    margin-right: 5px;
+}
