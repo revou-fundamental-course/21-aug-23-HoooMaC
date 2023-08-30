@@ -6,24 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>School Profile</title>
     <link rel="stylesheet" href="css/style.css">
-
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <!-- Awal Navigasi -->
     <nav class="navigation">
         <div class="logo"><a href="#" id="logo"><img src="img/revou.png" alt="Revou" width="60px"></a></div>
-        <div class="button">
+        <div class="navbar">
             <a href="#">Home</a>
             <a href="#">Our Profile</a>
             <a href="#">Achievment</a>
-            <a href="#message">Message Us</a>
+            <a href="#message" class="message-btn">Message Us</a>
         </div>
     </nav>
     <!-- Akhir navigasi -->
     <hr>
     <!-- Awal main -->
-    <main style="min-height: 400px;">
+    <main id="main" style="min-height: 400px;">
         <h2>Hi, welcome to our website</h2>
         <h3>Ini ada website pertama</h3>
     </main>
@@ -33,31 +36,58 @@
     <section id="facilitation">
         <h2>Our facilitation</h2>
         <div class="photos">
-            <div>
+            <div class="object">
                 <img src="https://picsum.photos/200" alt="random image1">
                 <p>The caption of the photo</p>
             </div>
-            <div>
+            <div class="object">
                 <img src="https://picsum.photos/200" alt="random image1">
                 <p>The caption of the photo</p>
             </div>
-            <div>
+            <div class="object">
                 <img src="https://picsum.photos/200" alt="random image1">
                 <p>The caption of the photo</p>
             </div>
         </div>
     </section>
     <!-- Akhir facilitation -->
-
+    <hr>
     <!-- Awal Message -->
     <section id="message">
+        <h2>Message Us</h2>
+        <form action="">
+            <label for="name">Name : </label>
+            <input type="text" name="name" id="name">
 
+            <br>
+
+            <label for="tanggal lahir">Tanggal lahir : </label>
+            <input type="date" name="tanggal lahir" id="tanggal lahir">
+
+            <br>
+
+            <input type="radio" name="jenis kelamin" id="laki2" value="laki - laki">
+            <label for="laki2">Laki-laki</label>
+            <input type="radio" name="jenis kelamin" id="perempuan" value="perempuan">
+            <label for="perempuan">Perempuan</label>
+
+            <br>
+
+            <label for="pesan">Pesan : </label>
+            <textarea name="pesan" id="pesan" cols="30" rows="10"></textarea>
+
+            <br>
+
+            <input type="submit" value="Submit">
+        </form>
     </section>
     <!-- Akhir Message -->
 
+    <hr>
+
     <!-- Awal Footer -->
     <footer>
-
+        <h6>Created by Gunawan</h6>
     </footer>
     <!-- Akhri footer -->
 

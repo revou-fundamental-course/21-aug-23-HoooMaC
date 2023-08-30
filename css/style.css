@@ -1,17 +1,68 @@
-.body {
+body {
     min-height: 300px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .navigation {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 main {
     background-color: blue;
 }
+.navbar{
+    border-width: 2px;
+    border-style: solid;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 5px;
+}
+.navbar a {
+    justify-content: center;
+    /* background-color: aquamarine; */
+    padding: 10px;
+    border-width: 2px;
+    border-right-style: solid;
+    color: black;
+
+
+    /* margin-right: -9px; */
+}
+.navbar .message-btn a{
+    border-right-style: none;
+}
 
 .photos {
     display: flex;
-    margin-right: 5px;
+    justify-content: center;
+}
+
+.photos .object {
+    margin-right: 10px;
+}
+
+.photos .object img {
+    border-radius: 50%;
+}
+.submit-btn, .input-box {
+    min-width: 250px;
+    padding-top:2px;
+    padding-bottom:2px;
+    margin-right: 0;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+}
+.message-input {
+
+}
+
+
+footer {
+    display: flex;
+    justify-content: end;
 }
